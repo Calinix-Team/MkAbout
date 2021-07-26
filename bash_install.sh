@@ -12,4 +12,15 @@ cp -r ./dist/* ~/.mko/
 
 mv ~/.mko/main ~/.mko/mko
 echo "export PATH=$PATH:~/.mko" >> ~/.bashrc
+cd ~/Desktop
+echo "
+[Desktop Entry]
+Name=About This Mac
+Exec=bash -c 'mko' 
+Comment=System Information about MkOsh
+Terminal=false
+Icon=~/.mko/icon.png
+Type=Application" > About_This_Mac.desktop
+cp About_This_Mac.desktop ~/.local/share/applications/
+echo "installation is completed!"
 echo "installation is completed!"
