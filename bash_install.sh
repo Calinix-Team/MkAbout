@@ -23,4 +23,5 @@ Icon=~/.mko/icon.png
 Type=Application" > About_This_Mac.desktop
 cp About_This_Mac.desktop ~/.local/share/applications/
 echo "installation is completed!"
-echo "installation is completed!"
+rm -rf ~/Downloads/MkAbout
+echo "Deleting unnecessary files"
