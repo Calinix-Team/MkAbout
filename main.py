@@ -3,6 +3,11 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
+def resource_path(relative_path):
+     if hasattr(sys, '_MEIPASS'):
+         return os.path.join(sys._MEIPASS, relative_path)
+     return os.path.join(os.path.abspath("."), relative_path)
+
 def mask_image(imgdata, imgtype ='jpg', size = 270):
   
     # Load image
@@ -192,7 +197,7 @@ class window(QWidget):
       button.resize(150, 30)
 
       # image path
-      imgpath = "morn.jpg"
+      imgpath = resource_path("morn.jpg")
 
       # loading image
       imgdata = open(imgpath, 'rb').read()
