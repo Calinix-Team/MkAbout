@@ -1,4 +1,5 @@
 import sys
+import os
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -197,8 +198,8 @@ class window(QWidget):
       button.resize(150, 30)
 
       # image path
-      imgpath = resource_path("morn.jpg")
-
+      imgpath = os.path.join((os.path.expanduser("~")), '.mko', 'morn.jpg')
+      print(imgpath)
       # loading image
       imgdata = open(imgpath, 'rb').read()
 
