@@ -1,6 +1,6 @@
 echo "Installing MkOsh About Page..."
 cd ~/Downloads
-git clone "https://github.com/arghyagod-coder/MkAbout"
+git clone "https://github.com/XApple-Team/MkAbout"
 cd MkAbout
 echo "Adding MkOsh About to PATH..."
 

@@ -178,17 +178,18 @@ class window(QWidget):
       button.resize(80, 30)
 
       button = QPushButton('Support', self)
-      button.setToolTip('Mapple Support')
+      button.setToolTip('XApple Support')
       button.move(470,20)
       button.resize(80, 30)
+   
 
       button = QPushButton('Service', self)
-      button.setToolTip('Mapple Services')
+      button.setToolTip('XApple Services')
       button.move(560,20)
       button.resize(80, 30)
 
       button = QPushButton('System Report...', self)
-      button.setToolTip('Report Problems of your system to Mapple')
+      button.setToolTip('Report Problems of your system to XApple')
       button.move(400,360)
       button.resize(150, 30)
 
