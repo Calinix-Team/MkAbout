@@ -19,7 +19,7 @@ Name=About This Mac
 Exec=fish -c 'mko' 
 Comment=System Information about MkOsh
 Terminal=false
-Icon=~/.mko/icon.png
+Icon=$HOME/.mko/icon.png
 Type=Application" > About_This_Mac.desktop
 cp About_This_Mac.desktop ~/.local/share/applications/
 echo "installation is completed!"
