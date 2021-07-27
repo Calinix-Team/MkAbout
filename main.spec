@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['/home/arghya/Desktop/Arghya/Programming/Github/random_projects/abtmac'],
+             pathex=['/home/arghya/Desktop/Arghya/Programming/Github/xapple/abtmac'],
              binaries=[],
              datas=[],
              hiddenimports=[],
