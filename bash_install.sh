@@ -12,6 +12,7 @@ cp -r ./dist/* ~/.mko/
 
 mv ~/.mko/main ~/.mko/mko
 echo "export PATH=$PATH:~/.mko" >> ~/.bashrc
+echo "Building Desktop File..."
 cd ~/Desktop
 echo "
 [Desktop Entry]
