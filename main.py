@@ -178,18 +178,18 @@ class window(QWidget):
       button.resize(80, 30)
 
       button = QPushButton('Support', self)
-      button.setToolTip('XApple Support')
+      button.setToolTip('Mengo Support')
       button.move(470,20)
       button.resize(80, 30)
    
 
       button = QPushButton('Service', self)
-      button.setToolTip('XApple Services')
+      button.setToolTip('Mengo Services')
       button.move(560,20)
       button.resize(80, 30)
 
       button = QPushButton('System Report...', self)
-      button.setToolTip('Report Problems of your system to XApple')
+      button.setToolTip('Report Problems of your system to Mengo')
       button.move(400,360)
       button.resize(150, 30)
 
